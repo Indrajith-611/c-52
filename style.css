@@ -1,0 +1,56 @@
+h1{
+    color:red;
+    padding:  50px;
+    }
+h2{
+        color: aqua;
+    }
+
+
+.header{
+    background-color: peachpuff ;
+    display:flex;
+    justify-content: space-evenly
+}
+.all_games{
+    background-color: peachpuff ;
+    display:flex;
+    justify-content: space-evenly
+}
+.socialmedia{
+    display:flex;
+    justify-content: flex-end
+
+}
+p,h2{
+    text-align: center;
+}
+body{
+    background-color: darkgray;
+}
+.menu{
+    padding: 50px;
+}
+a:link{
+    color:indigo;
+}
+a:visited{
+    color:red;
+
+}
+.game{
+    position:relative;
+}
+.game p{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity:0 ;
+}
+.game:hover p{
+    opacity: 1  ;
+}
+.game:hover img{
+    opacity: 0.3;
+}
